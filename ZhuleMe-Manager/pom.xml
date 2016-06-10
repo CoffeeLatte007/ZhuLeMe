@@ -12,6 +12,7 @@
     <groupId>cn.ZhuleMe</groupId>
     <artifactId>lz-manager</artifactId>
     <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
             <groupId>cn.ZhuleMe</groupId>
