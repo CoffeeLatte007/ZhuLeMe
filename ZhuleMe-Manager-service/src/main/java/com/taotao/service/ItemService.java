@@ -10,5 +10,5 @@ import com.taotao.pojo.TbItem;
 public interface ItemService {
     TbItem getItemById(long itenid);
     EUIResult getItemList(int page,int rows);
-    TaotaoResult createItem(TbItem item);
+    TaotaoResult createItem(TbItem item, String desc, String itemParams);
 }
