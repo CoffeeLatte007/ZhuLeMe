@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ZhuLeMe.iml" filepath="$PROJECT_DIR$/ZhuLeMe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuLeMe-Portal/ZhuLeMe-Portal.iml" filepath="$PROJECT_DIR$/ZhuLeMe-Portal/ZhuLeMe-Portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuLeMe-Rest/ZhuLeMe-Rest.iml" filepath="$PROJECT_DIR$/ZhuLeMe-Rest/ZhuLeMe-Rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Search/ZhuleMe-Search.iml" filepath="$PROJECT_DIR$/ZhuleMe-Search/ZhuleMe-Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Comon/lz-common.iml" filepath="$PROJECT_DIR$/ZhuleMe-Comon/lz-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Manager-controller/lz-controller.iml" filepath="$PROJECT_DIR$/ZhuleMe-Manager-controller/lz-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Manager/lz-manager.iml" filepath="$PROJECT_DIR$/ZhuleMe-Manager/lz-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Manager-mapper/lz-manager-mapper.iml" filepath="$PROJECT_DIR$/ZhuleMe-Manager-mapper/lz-manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Manager-pojo/lz-manager-pojo.iml" filepath="$PROJECT_DIR$/ZhuleMe-Manager-pojo/lz-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Manager-service/lz-manager-service.iml" filepath="$PROJECT_DIR$/ZhuleMe-Manager-service/lz-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Parent/lz-parent.iml" filepath="$PROJECT_DIR$/ZhuleMe-Parent/lz-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Manager/taotao-manager.iml" filepath="$PROJECT_DIR$/ZhuleMe-Manager/taotao-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Manager-pojo/taotao-manager-pojo.iml" filepath="$PROJECT_DIR$/ZhuleMe-Manager-pojo/taotao-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Manager-service/taotao-manager-service.iml" filepath="$PROJECT_DIR$/ZhuleMe-Manager-service/taotao-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Manager-controller/taotao-manager-web.iml" filepath="$PROJECT_DIR$/ZhuleMe-Manager-controller/taotao-manager-web.iml" />
+    </modules>
+  </component>
+</project>

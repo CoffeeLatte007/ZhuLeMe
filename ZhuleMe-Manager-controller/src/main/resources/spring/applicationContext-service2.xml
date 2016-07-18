@@ -16,12 +16,12 @@
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
             <!-- 传播行为 REQUIRED如果有当前事务就在当前事务，或者新增一个事务，SUPPORTS如果当前有事务就在当前事务执行，如果没有就不开启 -->
-            <tx:method name="save*" propagation="REQUIRED" />
-            <tx:method name="insert*" propagation="REQUIRED" />
-            <tx:method name="add*" propagation="REQUIRED" />
-            <tx:method name="create*" propagation="REQUIRED" />
-            <tx:method name="delete*" propagation="REQUIRED" />
-            <tx:method name="update*" propagation="REQUIRED" />
+            <tx:method name="save*" propagation="REQUIRED" rollback-for="java.lang.Exception" />
+            <tx:method name="insert*" propagation="REQUIRED" rollback-for="java.lang.Exception" />
+            <tx:method name="add*" propagation="REQUIRED" rollback-for="java.lang.Exception"/>
+            <tx:method name="create*" propagation="REQUIRED" rollback-for="java.lang.Exception"/>
+            <tx:method name="delete*" propagation="REQUIRED" rollback-for="java.lang.Exception"/>
+            <tx:method name="update*" propagation="REQUIRED" rollback-for="java.lang.Exception"/>
             <tx:method name="find*" propagation="SUPPORTS" read-only="true" />
             <tx:method name="select*" propagation="SUPPORTS" read-only="true" />
             <tx:method name="get*" propagation="SUPPORTS" read-only="true" />

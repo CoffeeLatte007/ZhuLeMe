@@ -11,6 +11,7 @@ import com.taotao.pojo.TbContentExample;
 import com.taotao.pojo.TbItem;
 import com.taotao.pojo.TbItemExample;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
@@ -24,6 +25,10 @@ import java.util.List;
 public class ContentServiceImpl implements ContentService {
     @Autowired
     TbContentMapper tbContentMapper;
+    @Value("${REST_BASE_URL}")
+    private String REST_BASE_URL;
+    @Value("${REST_CONTENT_SYNC_URL}")
+    private String REST_CONTENT_SYNC_URL;
     @Override
     public EUIResult getContentList(Integer page, Integer rows, Long categoryId) {
         TbContentExample contentExample=new TbContentExample();
@@ -45,7 +50,7 @@ public class ContentServiceImpl implements ContentService {
         tbContentMapper.insert(content);
         //添加同步逻辑
         try{
-            HttpClientUtil.doGet("localhost:8081/cache/sync/content/"+content.getCategoryId());
+            HttpClientUtil.doGet(REST_BASE_URL + REST_CONTENT_SYNC_URL+content.getCategoryId());
         }catch (Exception e){
             e.printStackTrace();
         }
