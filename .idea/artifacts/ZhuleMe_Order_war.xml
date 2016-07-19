@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ZhuleMe-Order:war">
+    <output-path>$PROJECT_DIR$/ZhuleMe-Order/target</output-path>
+    <root id="archive" name="ZhuleMe-Order.war">
+      <element id="artifact" artifact-name="ZhuleMe-Order:war exploded" />
+    </root>
+  </artifact>
+</component>

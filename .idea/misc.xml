@@ -32,8 +32,11 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/ZhuleMe-Manager-controller" />
+    <file type="web" url="file://$PROJECT_DIR$/ZhuleMe-Order" />
     <file type="web" url="file://$PROJECT_DIR$/ZhuLeMe-Portal" />
     <file type="web" url="file://$PROJECT_DIR$/ZhuLeMe-Rest" />
+    <file type="web" url="file://$PROJECT_DIR$/ZhuleMe-Search" />
+    <file type="web" url="file://$PROJECT_DIR$/ZhuLeMe-SSO" />
     <type id="Spring" />
   </component>
   <component name="IdProvider" IDEtalkID="B340C1D01FFE9A1C70F2CAC2E163A5CE" />
@@ -50,6 +53,8 @@
         <option value="$PROJECT_DIR$/ZhuLeMe-Rest/pom.xml" />
         <option value="$PROJECT_DIR$/ZhuLeMe-Portal/pom.xml" />
         <option value="$PROJECT_DIR$/ZhuleMe-Search/pom.xml" />
+        <option value="$PROJECT_DIR$/ZhuLeMe-SSO/pom.xml" />
+        <option value="$PROJECT_DIR$/ZhuleMe-Order/pom.xml" />
       </list>
     </option>
   </component>

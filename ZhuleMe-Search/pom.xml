@@ -11,6 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ZhuleMe-Search</artifactId>
+    <packaging>war</packaging>
     <dependencies>
         <dependency>
             <groupId>cn.ZhuleMe</groupId>

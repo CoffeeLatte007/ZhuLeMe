@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/ZhuLeMe.iml" filepath="$PROJECT_DIR$/ZhuLeMe.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZhuLeMe-Portal/ZhuLeMe-Portal.iml" filepath="$PROJECT_DIR$/ZhuLeMe-Portal/ZhuLeMe-Portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZhuLeMe-Rest/ZhuLeMe-Rest.iml" filepath="$PROJECT_DIR$/ZhuLeMe-Rest/ZhuLeMe-Rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuLeMe-SSO/ZhuLeMe-SSO.iml" filepath="$PROJECT_DIR$/ZhuLeMe-SSO/ZhuLeMe-SSO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Order/ZhuleMe-Order.iml" filepath="$PROJECT_DIR$/ZhuleMe-Order/ZhuleMe-Order.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Search/ZhuleMe-Search.iml" filepath="$PROJECT_DIR$/ZhuleMe-Search/ZhuleMe-Search.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Comon/lz-common.iml" filepath="$PROJECT_DIR$/ZhuleMe-Comon/lz-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZhuleMe-Manager-controller/lz-controller.iml" filepath="$PROJECT_DIR$/ZhuleMe-Manager-controller/lz-controller.iml" />

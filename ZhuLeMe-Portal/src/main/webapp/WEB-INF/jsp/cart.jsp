@@ -13,7 +13,7 @@
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    <link rel="stylesheet" href="/css/base.css">
    <link href="/css/purchase.2012.css?v=201410141639" rel="stylesheet" type="text/css">
-   <title>我的购物车 - 淘淘商城</title>
+   <title>我的购物车 - 锋锋商城</title>
    <script>
    	var pageConfig  = {};
    </script>
@@ -22,7 +22,7 @@
 <jsp:include page="commons/shortcut.jsp" />
 <!--shortcut end-->
 <div class="w w1 header clearfix">
-	<div id="logo"><a href="/"><img clstag="clickcart|keycount|xincart|logo" src="/images/taotao-logo.gif" title="返回淘淘商城首页" alt="返回淘淘商城首页"></a></div>
+	<div id="logo"><a href="/"><img clstag="clickcart|keycount|xincart|logo" src="/images/fengfeng-logo.jpg" title="返回锋锋商城首页" alt="返回锋锋商城首页"></a></div>
     <div class="language"><a href="javascript:void(0);" onclick="toEnCart()"></a></div>
 	<div class="progress clearfix">
 		<ul class="progress-1">
@@ -46,7 +46,7 @@
     <div class="cart-thead clearfix">
         <div class="column t-checkbox form"><input data-cart="toggle-cb" name="toggle-checkboxes" id="toggle-checkboxes_up" type="checkbox" checked="" value=""><label for="toggle-checkboxes_up">全选</label></div>
         <div class="column t-goods">商品</div>
-        <div class="column t-price">淘淘价</div>
+        <div class="column t-price">锋锋价</div>
         <div class="column t-promotion">优惠</div>
         <div class="column t-inventory">库存</div>
         <div class="column t-quantity">数量</div>
@@ -63,7 +63,7 @@
 		            <div class="cell p-goods">
 		                <div class="p-img">
 		                	<a href="/item/${cart.id }.html" target="_blank">
-		                		<img clstag="clickcart|keycount|xincart|p-imglistcart" src="${cart.images[0]}" alt="${cart.title}" width="52" height="52">
+		                		<img clstag="clickcart|keycount|xincart|p-imglistcart" src="${cart.image}" alt="${cart.title}" width="52" height="52">
 		                	</a>
 		                </div>    
 		                <div class="p-name">
@@ -127,8 +127,8 @@
                           <a href="" class="combine-btn">不支持合并付款</a>
                       </span>
                       <span class="fore2 hide" style="display: inline;">
-                          <a href="javascript:goToOverseaOrder();" class="checkout-jdInt">去淘淘国际结算<b></b></a>
-                          <a href="javascript:goToOrder();" class="checkout-jd">去淘淘结算<b></b></a>
+                          <a href="javascript:goToOverseaOrder();" class="checkout-jdInt">去锋锋国际结算<b></b></a>
+                          <a href="javascript:goToOrder();" class="checkout-jd">去锋锋结算<b></b></a>
                       </span>
                   </span>
               </div>

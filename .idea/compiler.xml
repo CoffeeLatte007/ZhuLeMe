@@ -30,9 +30,11 @@
         <module name="taotao-manager-pojo" />
         <module name="taotao-manager-service" />
         <module name="taotao-manager-web" />
+        <module name="ZhuleMe-Order" />
         <module name="ZhuLeMe-Portal" />
         <module name="ZhuLeMe-Rest" />
         <module name="ZhuleMe-Search" />
+        <module name="ZhuLeMe-SSO" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -47,9 +49,11 @@
       <module name="taotao-manager-pojo" target="1.7" />
       <module name="taotao-manager-service" target="1.7" />
       <module name="taotao-manager-web" target="1.7" />
+      <module name="ZhuleMe-Order" target="1.7" />
       <module name="ZhuLeMe-Portal" target="1.7" />
       <module name="ZhuLeMe-Rest" target="1.7" />
       <module name="ZhuleMe-Search" target="1.7" />
+      <module name="ZhuLeMe-SSO" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

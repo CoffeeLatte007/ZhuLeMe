@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ZhuLeMe-SSO:war">
+    <output-path>$PROJECT_DIR$/ZhuLeMe-SSO/target</output-path>
+    <root id="archive" name="ZhuLeMe-SSO.war">
+      <element id="artifact" artifact-name="ZhuLeMe-SSO:war exploded" />
+    </root>
+  </artifact>
+</component>

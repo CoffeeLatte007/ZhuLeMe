@@ -8,10 +8,10 @@
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
     <!-- 单机版-->
   <bean id="redisClient" class="redis.clients.jedis.JedisPool">
-      <constructor-arg name="host" value="115.28.110.26"></constructor-arg>
+      <constructor-arg name="host" value="123.207.137.190"></constructor-arg>
       <constructor-arg name="port" value="6379"></constructor-arg>
   </bean>
-    <bean id="jedisClient" class="com.taotao.rest.dao.impl.JedisClientSingle"></bean>
+    <bean id="jedisClient" class="com.fengfeng.rest.dao.impl.JedisClientSingle"></bean>
    <!-- <bean id="redisClient" class="redis.clients.jedis.JedisCluster">
         <constructor-arg name="nodes">
             <set>

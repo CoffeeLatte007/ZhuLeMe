@@ -10,7 +10,7 @@ public class SolrJTest {
     @Test
     public void addDocument() throws Exception {
         //创建一连接
-        SolrServer solrServer = new HttpSolrServer("http://115.28.110.26:8080//solr");
+        SolrServer solrServer = new HttpSolrServer("http://123.207.137.190:8080/solr");
         //创建一个文档对象
         SolrInputDocument document = new SolrInputDocument();
         document.addField("id", "test001");
@@ -25,7 +25,7 @@ public class SolrJTest {
     @Test
     public void deleteDocument() throws Exception {
         //创建一连接
-        SolrServer solrServer = new HttpSolrServer("http://115.28.110.26:8080//solr");
+        SolrServer solrServer = new HttpSolrServer("http://123.207.137.190:8080//solr");
         //solrServer.deleteById("test001");
         solrServer.deleteByQuery("*:*");
         solrServer.commit();
